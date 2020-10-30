@@ -12,6 +12,10 @@ $(function(){
     console.log(students)
   })
 
+  $("#button01").on("click",function(){
+    $("#content").text(students[0].name + ':' + students[0].sport)
+  })
+  
 
 
 
