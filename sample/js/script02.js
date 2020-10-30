@@ -14,7 +14,7 @@ $(function(){
       students_txt +='/'
     }
 
-    $("#content".text(students_txt);
+    $("#content").text(students_txt);
   })
 
   $("#button02").on("click",function(){
